@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------background */
+.container-fluid{
+    background-image: url(https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    height:auto;
+}
+
+.row{
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    
+}
+/* -----------------------------header */
+.header {
+    background-image: url(https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: relative;
+    color: rgb(12, 11, 6);
+    text-align: center;
+    padding: 5rem;
+}
+
+.header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    font-family: "McLaren", cursive;
+    color: #e4eff7;
+}
+.header p {
+    margin-top: 1 rem;
+    font-weight: 600;
+    font-size: 1.5 rem;
+    color: #e4eff7;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #d0e5f5;
+}
+.main {
+    background-color: #212121;
+    
+    
+}
+
+/* --------------------------------input section */
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   font-family: "Montserrat", sans-serif;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #6DA9E4;
+    color: #6DA9E4;
+    border-radius: 2px;
+    margin-right:4px ;
+    
+}
+
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #6DA9E4;
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.inputs input[type="submit"]:hover {
+    background-color: #4c8fc7;
+}
+
+
+/* -------------------------------display */
+.display {
+    text-align: center;
+    color: #6DA9E4;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: #212121;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
+  /* Default styles */
+
+/* Add your default styles here */
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for mobile devices */
+  
+    /* Update the padding in the .row class to reduce the top and bottom padding */
+    .row {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  
+    /* Adjust the font size and padding in the .header class for better readability on mobile devices */
+    .header h1 {
+      font-size: 24px;
+      padding: 2rem;
+    }
+    .header p {
+      font-size: 16px;
+      padding: 1rem;
+    }
+  
+    /* Adjust the padding in the .inputs class to reduce the vertical space */
+    .inputs {
+      padding: 2rem 0 1rem 0;
+    }
+  
+    /* Adjust the width of the input fields for better display on mobile devices */
+    .inputs input[type="text"] {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    /* Adjust the font size in the .wrapper class for better readability on mobile devices */
+    .wrapper h2 {
+      font-size: 24px;
+    }
+    .wrapper p {
+      font-size: 18px;
+    }
+  }
+  
